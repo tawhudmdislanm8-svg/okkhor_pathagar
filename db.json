@@ -1,0 +1,156 @@
+{
+  "admin": {
+    "username": "okkhor",
+    "passwordHash": "1ca70e80f34b08416e180c46609b2835e9cfa0088dd698d78fff2197873a90c8"
+  },
+  "books": [
+    {
+      "id": "b-1",
+      "code": "BOK-101",
+      "name": "পথের পাঁচালী",
+      "author": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "publisher": "signet press",
+      "imageUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400",
+      "status": "Available"
+    },
+    {
+      "id": "b-2",
+      "code": "BOK-102",
+      "name": "লালসালু",
+      "author": "সৈয়দ ওয়ালীউল্লাহ",
+      "publisher": "রেনেসাঁ পাবলিশার্স",
+      "imageUrl": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&q=80&w=400",
+      "status": "Available"
+    },
+    {
+      "id": "b-3",
+      "code": "BOK-103",
+      "name": "হিমুর হাতে কয়েকটি নীল পদ্ম",
+      "author": "হুমায়ূন আহমেদ",
+      "publisher": "অন্যপ্রকাশ",
+      "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=400",
+      "status": "Issued"
+    },
+    {
+      "id": "b-4",
+      "code": "BOK-104",
+      "name": "গীতাঞ্জলি",
+      "author": "রবীন্দ্রনাথ ঠাকুর",
+      "publisher": "ইন্ডিয়ান পাবলিশিং হাউস",
+      "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&q=80&w=400",
+      "status": "Available"
+    },
+    {
+      "id": "b-5",
+      "code": "BOK-105",
+      "name": "শঙ্খনীল কারাগার",
+      "author": "হুমায়ূন আহমেদ",
+      "publisher": "অন্যপ্রকাশ",
+      "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=400",
+      "status": "Available"
+    }
+  ],
+  "members": [
+    {
+      "formNumber": "1001",
+      "name": "আরিফ রহমান",
+      "mobile": "01712345678",
+      "address": "মিরপুর-১১, ঢাকা"
+    },
+    {
+      "formNumber": "1002",
+      "name": "ফাতেমা ইয়াসমিন",
+      "mobile": "01987654321",
+      "address": "ধানমন্ডি-৩২, ঢাকা"
+    },
+    {
+      "formNumber": "1003",
+      "name": "মামুনুল ইসলাম",
+      "mobile": "01555443322",
+      "address": "উত্তরা-সেক্টর ৫, ঢাকা"
+    }
+  ],
+  "issues": [
+    {
+      "id": "i-1",
+      "bookCode": "BOK-103",
+      "bookName": "হিমুর হাতে কয়েকটি নীল পদ্ম",
+      "author": "হুমায়ূন আহমেদ",
+      "publisher": "অন্যপ্রকাশ",
+      "memberName": "আরিফ রহমান",
+      "formNumber": "1001",
+      "mobile": "01712345678",
+      "address": "মিরপুর-১১, ঢাকা",
+      "issueDate": "2026-06-10",
+      "returnDate": "2026-06-17",
+      "status": "Issued",
+      "extensionHistory": [],
+      "comments": [
+        "প্রচ্ছদ একটু ছেঁড়া রয়েছে"
+      ]
+    },
+    {
+      "id": "i-2",
+      "bookCode": "BOK-101",
+      "bookName": "পথের পাঁচালী",
+      "author": "বিভূতিভূষণ বন্দ্যোপাধ্যায়",
+      "publisher": "signet press",
+      "memberName": "ফাতেমা ইয়াসমিন",
+      "formNumber": "1002",
+      "mobile": "01987654321",
+      "address": "ধানমন্ডি-৩২, ঢাকা",
+      "issueDate": "2026-06-01",
+      "returnDate": "2026-06-08",
+      "status": "Returned",
+      "extensionHistory": [
+        {
+          "date": "2026-06-08",
+          "action": "Extended",
+          "payload": "3"
+        }
+      ],
+      "comments": [
+        "সময় মতো ফেরত এসেছে"
+      ],
+      "returnedAt": "2026-06-11"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "w-1",
+      "name": "কড়ি ও কোমল",
+      "author": "রবীন্দ্রনাথ ঠাকুর",
+      "publisher": "বিশ্বভারতী",
+      "createdAt": "2026-06-12 11:30:00"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n-1",
+      "title": "পাঠক সমাবেশের তালিকা",
+      "content": "১. আগামী সপ্তাহে নতুন কিছু রবীন্দ্রনাথের উপন্যাস কিনতে হবে।\n২. ১৯ শে জুন একটি বিশেষ গুণীজন পর্যালোচনা সভা অনুষ্ঠিত হবে।",
+      "createdAt": "2026-06-12 11:15:00",
+      "updatedAt": "2026-06-12 11:15:00"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-06-10 10:15:00",
+      "action": "বই যোগ",
+      "details": "বই কোড BOK-103 যোগ করা হয়েছে (হিমুর হাতে কয়েকটি নীল পদ্ম)"
+    },
+    {
+      "id": "log-2",
+      "timestamp": "2026-06-10 10:20:00",
+      "action": "বই ইস্যু",
+      "details": "আরিফ রহমান (M: 1001) কে BOK-103 বই ইস্যু করা হয়েছে। রিটার্ন ডেট: ১৭ জুন ২০২৬"
+    },
+    {
+      "id": "log-3",
+      "timestamp": "2026-06-12 11:30:00",
+      "action": "বই যোগ",
+      "details": "উইশলিস্টে 'কড়ি ও কোমল' যোগ করা হয়েছে"
+    }
+  ]
+}

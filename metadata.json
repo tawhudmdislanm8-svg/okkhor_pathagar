@@ -1,0 +1,6 @@
+{
+  "name": "Akkhor Pathagar",
+  "description": "A modern, secure, smart, and fully admin-controlled Bengali Library Management System styled with Premium Dark Glassmorphism, real-time transaction tracking, automated SMS scheduling, and detailed audit log features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
